@@ -1,0 +1,15 @@
+{
+  "extends": ["airbnb-base"],
+  "parser": "babel-eslint",
+  "globals": {
+    "testRule": true,
+    "jest": true
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "no-console": ["warn", {
+      "allow": ["warn"]
+    }],
+    "import/named": "off"
+  }
+}
